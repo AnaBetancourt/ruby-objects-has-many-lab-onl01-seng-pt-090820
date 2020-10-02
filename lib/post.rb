@@ -13,7 +13,7 @@ class Post
   end
   
   def author
-    Author.new
+    Author.new(name)
   end
   
   def author_name
