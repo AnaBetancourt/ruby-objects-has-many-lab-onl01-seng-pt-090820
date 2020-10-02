@@ -12,6 +12,10 @@ class Post
     @@all
   end
   
+  def author
+    @author = Author.new
+  end
+  
   def author_name
     Post.author.name 
   end 
